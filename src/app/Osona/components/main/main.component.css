@@ -1,0 +1,39 @@
+.carousel-caption {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-100%, -70%);
+    text-align: left;
+
+  }
+
+  .carousel-caption>h1{
+    font-size: 100px;
+  }
+
+  .carousel-caption>p{
+   font-size: 20px;
+  }
+
+
+  .carousel{
+    --animate-duration:1.8s
+  }
+ 
+
+  #youtube-video{
+    border-radius: 2%;
+  }
+
+
+  .animate-element {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .animate-element.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
