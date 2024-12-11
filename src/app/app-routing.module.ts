@@ -13,7 +13,7 @@ const routes: Routes = [
     component:MainComponent
   },
   {
-    path:"arquitectura",
+    path:"proyectos",
     component:ArquitecturaPageComponent
     
   },

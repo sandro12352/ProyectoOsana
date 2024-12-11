@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import { Obra } from '../../interfaces/obra.interface';
 import { OsanaService } from '../../services/osana-service.service';
-import { Proyecto } from '../../interfaces/proyecto.interface';
 
 @Component({
   selector: 'app-arquitectura-page',
